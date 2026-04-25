@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>PLL LOT Liveries Project</title>
+
+  <!-- FIX CSS -->
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+
+<header class="topbar">
+  <img src="./assets/logo.png" class="logo">
+  <h1>PLL LOT Liveries Project</h1>
+</header>
+
+<div class="controls">
+  <input id="search" placeholder="Szukaj livery...">
+
+  <select id="aircraft">
+    <option value="all">Wszystkie</option>
+    <option value="A320">A320</option>
+    <option value="B737">B737</option>
+    <option value="B787">B787</option>
+  </select>
+
+  <select id="type">
+    <option value="all">Typ</option>
+    <option value="real">Real</option>
+    <option value="fictional">Fictional</option>
+  </select>
+</div>
+
+<main>
+  <div id="grid" class="grid"></div>
+</main>
+
+<script src="./app.js"></script>
+</body>
+</html>
